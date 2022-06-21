@@ -14,5 +14,6 @@ function joinArrays (array) {
 console.log(joinArrays(arrays));
 
 // segunda solução
+// utilizando métodos superiores de arrays
 
 console.log(arrays.reduce((flat, current) => flat.concat(current), []));
